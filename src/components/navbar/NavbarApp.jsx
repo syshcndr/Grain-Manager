@@ -46,8 +46,8 @@ export const Navbar = () => {
                                 >
                                     <NavLink.Desktop href='/Home' active >HomePage</NavLink.Desktop>
                                     <NavLink.Desktop href='/About' > About</NavLink.Desktop>
-                                    <NavLink.Desktop>Installation</NavLink.Desktop>
-                                    <NavLink.Desktop>Download App</NavLink.Desktop>
+                                    <NavLink.Desktop href='/Installation'>Installation</NavLink.Desktop>
+                                    <NavLink.Desktop href='/Download'>Download App</NavLink.Desktop>
 
 
                                 </HStack>
