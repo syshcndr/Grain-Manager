@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-ro
 import { HomePage } from "./components/pages/Home";
 import { About } from './components/pages/about';
 import { MobileDownload } from "./components/pages/Download";
+import { InstallationPageweb } from './components/pages/Installation';
+import { Aboutuuid } from './components/pages/about copy';
 function App() {
   return (
       <div>
@@ -14,9 +16,10 @@ function App() {
         <Switch>
             <Route path='/Home' component={HomePage} />
             <Route path='/About' component={About} />
-            <Route path='/Installation' component={About} />
+            <Route path='/Installation' component={InstallationPageweb} />
             <Route path='/Download' component={MobileDownload} />
-            <Route exact path="/"><Redirect to="/Home" /></Route>
+            <Route path='/Aboutuuid' component={Aboutuuid} />
+            <Router exact path="/"><Redirect to="/Home" /></Router>
         </Switch>
         </Router>
 

@@ -60,9 +60,7 @@ export const Navbar = () => {
                                         md: 'flex',
                                     }}
                                 >
-                                    <Button colorScheme="blue" rounded="full">
-                                        Get Started
-                </Button>
+
                                 </HStack>
                                 <Box ml="5">
                                     <MobileNav />
