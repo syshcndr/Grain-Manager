@@ -13,7 +13,7 @@ export const FeatureApp = () => (
                 We serve Your Realtime Data Always with low latency.
       </Feature>
             <Feature title="Incredible statistics" icon={<FcDoughnutChart />}>
-                You get the most accurate Realyime Data
+                You get the most accurate Realtime Data
       </Feature>
             <Feature title="Support for multiple devices" icon={<FcMultipleDevices />}>
                 Supports 'N' Number Of IOT Devices for your needs.
